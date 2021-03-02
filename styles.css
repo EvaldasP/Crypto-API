@@ -1,0 +1,81 @@
+body {
+  background-color: #264653;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.divinfo {
+  background-color: #2a9d8f;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
+}
+
+.divinfo h3 {
+  text-align: center;
+  color: #e9c46a;
+  font-size: 2rem;
+}
+
+.divinfo h2,
+.divinfo h4 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.divinfo h4 {
+  color: #f4a261;
+}
+
+img {
+  height: 200px;
+}
+
+.ivedimas {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ivedimas h1 {
+  color: #e76f51;
+}
+
+input {
+  margin-top: 40px;
+  width: 10%;
+  background-color: #264653;
+  border: solid 1px #e76f51;
+  border-radius: 25px;
+  padding: 15px;
+  outline: none;
+  text-align: center;
+  color: #e9c46a;
+  font-size: 1rem;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+input:focus {
+  width: 30%;
+}
+/*# sourceMappingURL=styles.css.map */
